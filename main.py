@@ -23,6 +23,8 @@ while True:
             print("Scissors cuts paper! You win!")
         else:
             print("Rock smashes scissors! You lose.")
+    else:
+        print("That's not a valid play. Check your spelling!")
 
     play_again = input("Play again? (yes/no): ")
     if play_again.lower() != "yes":
